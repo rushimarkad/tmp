@@ -26,4 +26,9 @@ func main() {
 	//Short hand Declaration
 	count := 10
 	fmt.Println("Count =", count)
+	
+	//constants
+	const a = 55 //allowed
+    	a = 89 //reassignment not allowed
+	fmt.println("a is : ",a)
 }
